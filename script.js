@@ -1,6 +1,6 @@
 // complete this js code
 function Person(name, age) {
-	constructor(name,age){
+	 constructor(name,age){
 		this.name = name;
 		this.age = age;
 	}
@@ -10,7 +10,8 @@ function Person(name, age) {
 }
 
 function Employee(name, age, jobTitle) extends Person {
-	constructor(name,age,jobTitle){
+	 constructor(name,age,jobTitle){
+		super(name,age);
 		this.name = name;
 		this.age = age;
 		this.jobTitle = jobTitle;
